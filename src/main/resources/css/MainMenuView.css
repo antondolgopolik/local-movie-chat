@@ -1,0 +1,46 @@
+.root {
+    -fx-background-color: #111111;
+}
+
+.table-view {
+    -fx-padding: 0;
+    -fx-border-style: none;
+}
+
+.placeholder {
+    -fx-background-color: #EBEBEB;
+}
+
+.placeholder .label {
+    -fx-text-fill: black;
+}
+
+.column-header-background .label {
+    -fx-background-color: #111111;
+    -fx-text-fill: #EBEBEB;
+    -fx-font-weight: normal;
+}
+
+.filler {
+    -fx-background-color: #111111;
+}
+
+.table-column {
+    -fx-background-color: #111111;
+}
+
+.table-cell {
+    -fx-background-color: #EBEBEB;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-background-color: #111111;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #EBEBEB;
+    -fx-text-fill: black;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="1152.0" style="-fx-font-size: 18;" stylesheets="@../css/MainMenuView.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="roomTableView" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="ownerTableColumn" prefWidth="75.0" text="Owner" />
+          <TableColumn fx:id="mediaTableColumn" prefWidth="75.0" text="Media" />
+            <TableColumn fx:id="onlineTableColumn" prefWidth="75.0" text="Online" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" prefHeight="80.0" spacing="100.0" VBox.vgrow="NEVER">
+         <children>
+            <Button fx:id="updateButton" mnemonicParsing="false" prefWidth="150.0" text="Update" />
+            <Button fx:id="joinButton" mnemonicParsing="false" prefWidth="150.0" text="Join" />
+            <Button fx:id="createNewButton" mnemonicParsing="false" prefWidth="150.0" text="Create new" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,34 @@
+.root {
+    -fx-background-color: black;
+}
+
+.split-pane .split-pane-divider {
+    -fx-background-color: #EBEBEB;
+    -fx-pref-width: 3px;
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: black;
+}
+
+.text-area {
+    -fx-border-color: black;
+    -fx-prompt-text-fill: gray;
+}
+
+.text-area .content {
+    -fx-background-color: #EBEBEB;
+}
+
+.label {
+    -fx-text-fill: #EBEBEB;
+}
+
+.button {
+    -fx-background-color: #EBEBEB;
+    -fx-text-fill: black;
+}

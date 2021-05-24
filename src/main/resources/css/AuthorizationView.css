@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: #111111;
+}
+
+.label {
+    -fx-text-fill: #EBEBEB;
+}
+
+.choice-box .label {
+    -fx-text-fill: black;
+}
+
+.text-field {
+    -fx-background-color: #EBEBEB;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: gray;
+}
+
+.button {
+    -fx-background-color: #EBEBEB;
+    -fx-text-fill: black;
+}
